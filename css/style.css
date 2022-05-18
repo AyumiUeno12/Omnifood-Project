@@ -619,13 +619,6 @@ cta-form input::placeholder {
   margin-bottom: 4rem;
 }
 
-.footer-nav {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 2.4rem;
-}
-
 .contacts {
   font-style: normal;
   font-size: 1.6rem;
@@ -634,6 +627,13 @@ cta-form input::placeholder {
 
 .address {
   margin-bottom: 2.4rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
 }
 
 .footer-link:link,

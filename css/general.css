@@ -60,6 +60,9 @@ Medium: 11px
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+
+  /* Does not work on Safari and Microsoft Edge */
+  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -197,7 +200,7 @@ body {
 
   /* border: 3px solid #fff; */
 
-  /* Trick to add boder inside */
+  /* Trick to add border inside */
   box-shadow: inset 0 0 0 3px #fff;
 }
 
@@ -254,7 +257,7 @@ body {
   outline: none;
   /* outline: 4px dotted #e67e22;
   outline-offset: 8px; */
-  /* box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5); */
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
 }
 
 /* Help/Setting Classes */
